@@ -40,7 +40,7 @@ A div for each image was created with Bootstrap column size, class & data state 
 	var x = $(this).data("search");
 	console.log(x);
 
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + x + "&api_key=dc6zaTOxFJmzC&limit=10";
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + x + "&api_key=dc6zaTOxFJmzC&limit=10";
 
 	console.log(queryURL);
 
