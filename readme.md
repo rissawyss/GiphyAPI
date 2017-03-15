@@ -32,7 +32,7 @@ This assignment makes use of the GIPHY API to make a dynamic web page that popul
 - I created a function that allowed me to make an AJAX request to the Giphy API and then allowed me to further parse through the JSON object that was returned to access the rating, and url for the animated and still versions of the gifs.
 - The Q parameter of the API was replaced by the search term input by the user and displayed as a button on the page.
 - Results in the API link were limited to 10.
-A div for each image was created with Bootstrap column size, class & data state attributes. From the returned JSON object, I included the rating, and static & animated image urls, and prepended that the #gifArea in the HTML to display the gallery of returned gifs.
+A div for each image was created with Bootstrap column size, class & data state attributes. From the returned JSON object, I included the rating, and static & animated image urls, and prepended that to the #gifArea in the HTML to display the gallery of returned gifs.
 
 ```
  	function displayNetflixShow() {
